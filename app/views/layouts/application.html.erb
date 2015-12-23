@@ -8,7 +8,18 @@
 </head>
 <body>
 
-
+<% if current_user %>
+<ul>
+  <li><%= link_to("新增網址", new_link_path) %>
+  <li><%= link_to("帳戶設定", edit_user_registration_path) %></li>
+  <li><%= link_to("登出", destroy_user_session_path, :method => :delete) %></li>
+</ul>
+<% else %>
+<ul>
+  <li><%= link_to("註冊", new_user_registration_path) %></li>
+  <li><%= link_to("登入",new_user_session_path) %></li>
+</ul>
+<% end %>
 
 <%= yield %>
 
