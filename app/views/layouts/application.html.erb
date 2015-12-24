@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<% if current_user %>
+<% if user_signed_in? %>
 <ul>
   <li><%= link_to("新增網址", new_link_path) %>
   <li><%= link_to("帳戶設定", edit_user_registration_path) %></li>
