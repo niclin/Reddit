@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'acts_as_votable'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'rails', '4.2.4'
