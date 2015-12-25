@@ -1,28 +1,19 @@
-== README
+== Week 1 of my 12 in 12 Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+這是一個自我的挑戰，希望能從不斷的練習精進自己Rails的技巧
 
-Things you may want to cover:
+用Ruby on Rails 實作 Reddit
 
-* Ruby version
+Reddit介紹如下：
+Reddit（英語發音：/ˈrɛdɪt/）是一個娛樂、社交及新聞網站，註冊使用者可以將文字或連結在網站上發布，使它基本上成為了一個電子布告欄系統。註冊使用者可以對這些貼文進行投票，
 
-* System dependencies
+實作功能如下：
 
-* Configuration
+* 註冊 / 登入＆登出
 
-* Database creation
+* 可以產生link而且有Title&URL
 
-* Database initialization
+* 投票like or dislike
 
-* How to run the test suite
+* 留言功能
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
